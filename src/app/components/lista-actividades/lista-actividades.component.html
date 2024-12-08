@@ -1,1 +1,34 @@
-<p>lista-actividades works!</p>
+<div class="container py-5">
+    <!-- Header -->
+    <div class="text-center mb-4">
+      <h1 class="display-4 fw-bold text-primary">angular-hola-clase!</h1>
+      <p class="lead text-secondary">Actividades GYM 4V</p>
+    </div>
+  
+    <!-- Table -->
+    <div class="card shadow">
+      <div class="card-body p-4">
+        <div class="table-responsive">
+          <table class="table table-striped table-hover align-middle">
+            <thead class="table-primary">
+              <tr>
+                <th scope="col">Fecha</th>
+                <th scope="col">Lugar</th>
+                <th scope="col">Monitor</th>
+                <th scope="col">Tipo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let actividad of actividades">
+                <td>{{ actividad.fecha }}</td>
+                <td>{{ actividad.lugar }}</td>
+                <td>{{ actividad.monitor }}</td>
+                <td>{{ actividad.tipo }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
