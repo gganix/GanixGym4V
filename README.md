@@ -1,59 +1,81 @@
-# GanixGym4V
+# Gimnasio 4V 🏋️‍♀️ - Proyecto Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
+¡Bienvenido/a al repositorio del proyecto **Gimnasio 4V**! 🎉 Este proyecto es una página web desarrollada con **Angular** para gestionar y mostrar las actividades del gimnasio "4V". Es un ejercicio introductorio para aprender Angular, Bootstrap y otros conceptos fundamentales del desarrollo web.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🛠️ Tecnologías utilizadas
 
-```bash
-ng serve
-```
+Este proyecto ha sido desarrollado utilizando las siguientes tecnologías y herramientas:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Lenguajes y frameworks:**
+  - [Angular](https://angular.io/)
+  - HTML
+  - SCSS
+  - [Bootstrap](https://getbootstrap.com/) (para estilos)
+- **Entorno de desarrollo:**
+  - [Visual Studio Code](https://code.visualstudio.com/)
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🚀 Características del proyecto
 
-```bash
-ng generate component component-name
-```
+- **Componentes:** 
+  - Menú de navegación con logotipo y enlace a actividades.
+  - Tabla de actividades con diseño responsive y estilizado.
+  - Componente para mostrar información detallada de cada actividad.
+  
+- **Servicios:**
+  - Servicio de actividades que gestiona los datos.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- **Estilos:** 
+  - Se utiliza Bootstrap para un diseño moderno y elegante.
+  - Estilos personalizados con SCSS.
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 📥 Cómo clonar este repositorio
 
-To build the project run:
+Sigue estos pasos para descargar y ejecutar el proyecto en tu máquina local:
 
-```bash
-ng build
-```
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/tu-usuario/gimnasio-4v.git
+   ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+2. **Acceder al directorio del proyecto:**
+   ```bash
+   cd gimnasio-4v
+   ```
 
-## Running unit tests
+3. **Instalar las dependencias:** Asegúrate de tener Node.js y Angular CLI instalados. Luego ejecuta:
+   ```bash
+   npm install
+   ```
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+4. **Ejecutar el servidor de desarrollo:** Inicia la aplicación localmente:
+   ```bash
+   ng serve
+   ```
 
-```bash
-ng test
-```
+5. **Abrir en el navegador:** Ve a la siguiente URL en tu navegador:
+   ```
+   http://localhost:4200
+   ```
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 📚 Estructura del proyecto
 
-```bash
-ng e2e
-```
+- **`src/app/components/`**
+  - Contiene los componentes como el menú, la lista de actividades y la vista de actividad.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- **`src/app/services/`**
+  - Contiene los servicios, como el servicio de actividades.
 
-## Additional Resources
+- **`src/assets/`**
+  - Contiene los recursos estáticos como imágenes.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+¡Gracias por visitar este repositorio! Si tienes alguna pregunta o sugerencia, no dudes en abrir un *issue* o hacer un *pull request*. 🚀
