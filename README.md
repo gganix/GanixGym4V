@@ -40,12 +40,12 @@ Sigue estos pasos para descargar y ejecutar el proyecto en tu máquina local:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/gimnasio-4v.git
+   git clone https://github.com/gganix/GanixGym4V.git
    ```
 
 2. **Acceder al directorio del proyecto:**
    ```bash
-   cd gimnasio-4v
+   cd GanixGym4V
    ```
 
 3. **Instalar las dependencias:** Asegúrate de tener Node.js y Angular CLI instalados. Luego ejecuta:
