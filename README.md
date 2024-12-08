@@ -73,9 +73,6 @@ Sigue estos pasos para descargar y ejecutar el proyecto en tu máquina local:
 - **`src/app/services/`**
   - Contiene los servicios, como el servicio de actividades.
 
-- **`src/assets/`**
-  - Contiene los recursos estáticos como imágenes.
-
 ---
 
 ¡Gracias por visitar este repositorio! Si tienes alguna pregunta o sugerencia, no dudes en abrir un *issue* o hacer un *pull request*. 🚀
